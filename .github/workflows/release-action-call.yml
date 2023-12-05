@@ -15,7 +15,7 @@ jobs:
       solution_name: MySimpleApp
       #Update your values here
       BUILD_ENVIRONMENT_URL: https://org3802f372.crm4.dynamics.com
-      PRODUCTION_ENVIRONMENT_URL: https://orgd7f12daa.crm4.dynamics.com
+      PRODUCTION_ENVIRONMENT_URL: https://orgf7400e23.crm4.dynamics.com
       CLIENT_ID: 8ced14ce-f9d7-434c-8625-84a4695efa30
       TENANT_ID: 8cb2ccb4-e10d-44e1-94a1-43f7c4c1eb5c      
     secrets:
