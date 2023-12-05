@@ -25,7 +25,7 @@ on:
        default: solutions/
 env:
 #edit your values here
-  ENVIRONMENT_URL: https://org3802f372.crm4.dynamics.com/main.aspx?appid=cb4dc274-d092-ee11-be37-000d3adf794b&pagetype=entitylist&etn=msdyn_timeoffrequest&viewid=530a7fe5-7aaa-433e-8efd-a8555a5d62c1&viewType=1039
+  ENVIRONMENT_URL: https://org3802f372.crm4.dynamics.com
   CLIENT_ID: 8ced14ce-f9d7-434c-8625-84a4695efa30
   TENANT_ID: 8cb2ccb4-e10d-44e1-94a1-43f7c4c1eb5c
 permissions:
