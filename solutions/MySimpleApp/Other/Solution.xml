@@ -9,15 +9,15 @@
     <Version>1.0.0.0</Version>
     <Managed>0</Managed>
     <Publisher>
-      <UniqueName>almlab</UniqueName>
+      <UniqueName>mysimple</UniqueName>
       <LocalizedNames>
-        <LocalizedName description="ALMLab" languagecode="1033" />
+        <LocalizedName description="MySimpleApp" languagecode="1033" />
       </LocalizedNames>
       <Descriptions />
       <EMailAddress xsi:nil="true"></EMailAddress>
       <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
-      <CustomizationPrefix>almlab</CustomizationPrefix>
-      <CustomizationOptionValuePrefix>81435</CustomizationOptionValuePrefix>
+      <CustomizationPrefix>mysimple</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>58382</CustomizationOptionValuePrefix>
       <Addresses>
         <Address>
           <AddressNumber>1</AddressNumber>
@@ -78,22 +78,14 @@
       </Addresses>
     </Publisher>
     <RootComponents>
-      <RootComponent type="1" schemaName="almlab_timeoffrequest" behavior="0" />
-      <RootComponent type="62" schemaName="almlab_TimeOffRequests" behavior="0" />
-      <RootComponent type="80" schemaName="almlab_TimeOffRequests" behavior="0" />
+      <RootComponent type="1" schemaName="mysimple_timeoffrequest" behavior="0" />
+      <RootComponent type="62" schemaName="mysimple_TimeOffRequests" behavior="0" />
+      <RootComponent type="80" schemaName="mysimple_TimeOffRequests" behavior="0" />
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>
-        <Required type="1" schemaName="msdyn_timeoffrequest" displayName="Time Off Request" solution="FieldService (8.8.0.88)" />
-        <Dependent type="62" schemaName="almlab_TimeOffRequests" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="msdyn_timeoffrequest" displayName="Time Off Request" solution="FieldService (8.8.0.88)" />
-        <Dependent type="80" schemaName="almlab_TimeOffRequests" displayName="Time Off Requests" />
-      </MissingDependency>
-      <MissingDependency>
         <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
-        <Dependent type="80" schemaName="almlab_TimeOffRequests" displayName="Time Off Requests" />
+        <Dependent type="80" schemaName="mysimple_TimeOffRequests" displayName="Time Off Requests" />
       </MissingDependency>
     </MissingDependencies>
   </SolutionManifest>

@@ -6,23 +6,23 @@
     <isquickfindquery>0</isquickfindquery>
     <isprivate>0</isprivate>
     <isdefault>1</isdefault>
-    <savedqueryid>{104f8c1d-77be-4935-a6b4-94dd11eb90c3}</savedqueryid>
+    <savedqueryid>{5fa33779-7454-4dba-ad7a-4203a390fa76}</savedqueryid>
     <layoutxml>
-      <grid name="almlab_timeoffrequests" jump="almlab_name" select="1" icon="1" preview="1">
-        <row name="almlab_timeoffrequest" id="almlab_timeoffrequestid">
-          <cell name="almlab_name" width="300" />
+      <grid name="resultset" jump="mysimple_name" select="1" icon="1" preview="1">
+        <row name="result" id="mysimple_timeoffrequestid">
+          <cell name="mysimple_name" width="300" />
           <cell name="createdon" width="125" />
         </row>
       </grid>
     </layoutxml>
-    <querytype>2</querytype>
+    <querytype>0</querytype>
     <fetchxml>
       <fetch version="1.0" mapping="logical">
-        <entity name="almlab_timeoffrequest">
-          <attribute name="almlab_timeoffrequestid" />
-          <attribute name="almlab_name" />
+        <entity name="mysimple_timeoffrequest">
+          <attribute name="mysimple_timeoffrequestid" />
+          <attribute name="mysimple_name" />
           <attribute name="createdon" />
-          <order attribute="almlab_name" descending="false" />
+          <order attribute="mysimple_name" descending="false" />
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
           </filter>
@@ -31,7 +31,7 @@
     </fetchxml>
     <IntroducedVersion>1.0</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="Time Off Request Associated View" languagecode="1033" />
+      <LocalizedName description="Active Time Off Requests" languagecode="1033" />
     </LocalizedNames>
   </savedquery>
 </savedqueries>

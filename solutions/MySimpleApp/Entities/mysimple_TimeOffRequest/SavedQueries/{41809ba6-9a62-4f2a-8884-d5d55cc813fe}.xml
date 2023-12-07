@@ -6,11 +6,11 @@
     <isquickfindquery>1</isquickfindquery>
     <isprivate>0</isprivate>
     <isdefault>1</isdefault>
-    <savedqueryid>{5652744e-4a17-4d15-a732-1ce5bb415382}</savedqueryid>
+    <savedqueryid>{41809ba6-9a62-4f2a-8884-d5d55cc813fe}</savedqueryid>
     <layoutxml>
-      <grid name="resultset" jump="almlab_name" select="1" icon="1" preview="1">
-        <row name="result" id="almlab_timeoffrequestid">
-          <cell name="almlab_name" width="300" />
+      <grid name="resultset" jump="mysimple_name" select="1" icon="1" preview="1">
+        <row name="result" id="mysimple_timeoffrequestid">
+          <cell name="mysimple_name" width="300" />
           <cell name="createdon" width="125" />
         </row>
       </grid>
@@ -18,16 +18,16 @@
     <querytype>4</querytype>
     <fetchxml>
       <fetch version="1.0" mapping="logical">
-        <entity name="almlab_timeoffrequest">
-          <attribute name="almlab_timeoffrequestid" />
-          <attribute name="almlab_name" />
+        <entity name="mysimple_timeoffrequest">
+          <attribute name="mysimple_timeoffrequestid" />
+          <attribute name="mysimple_name" />
           <attribute name="createdon" />
-          <order attribute="almlab_name" descending="false" />
+          <order attribute="mysimple_name" descending="false" />
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
           </filter>
           <filter type="or" isquickfindfields="1">
-            <condition attribute="almlab_name" operator="like" value="{0}" />
+            <condition attribute="mysimple_name" operator="like" value="{0}" />
           </filter>
         </entity>
       </fetch>

@@ -6,12 +6,12 @@
     <isquickfindquery>0</isquickfindquery>
     <isprivate>0</isprivate>
     <isdefault>1</isdefault>
-    <savedqueryid>{b322a05d-d092-ee11-be36-000d3adf7352}</savedqueryid>
+    <savedqueryid>{3f488655-cd93-ee11-be36-000d3adf7b5c}</savedqueryid>
     <querytype>8192</querytype>
     <fetchxml>
       <fetch version="1.0" mapping="logical" output-format="xml-platform">
-        <entity name="almlab_timeoffrequest">
-          <attribute name="almlab_timeoffrequestid" />
+        <entity name="mysimple_timeoffrequest">
+          <attribute name="mysimple_timeoffrequestid" />
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
             <condition attribute="ownerid" operator="eq-userid" />
